@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\DevFreelance.Payments\\API\\API.csproj": {}
+    "C:\\dev\\DevFreelance.Payments\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\DevFreelance.Payments\\API\\API.csproj": {
+    "C:\\dev\\DevFreelance.Payments\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DevFreelance.Payments\\API\\API.csproj",
+        "projectUniqueName": "C:\\dev\\DevFreelance.Payments\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\dev\\DevFreelance.Payments\\API\\API.csproj",
+        "projectPath": "C:\\dev\\DevFreelance.Payments\\api\\API.csproj",
         "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DevFreelance.Payments\\API\\obj\\",
+        "outputPath": "C:\\dev\\DevFreelance.Payments\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,12 +39,14 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
