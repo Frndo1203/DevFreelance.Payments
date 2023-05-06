@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\DevFreelance.Payments\\API\\API.csproj": {}
+    "c:\\dev\\DevFreelance.Payments\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\DevFreelance.Payments\\API\\API.csproj": {
+    "c:\\dev\\DevFreelance.Payments\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DevFreelance.Payments\\API\\API.csproj",
+        "projectUniqueName": "c:\\dev\\DevFreelance.Payments\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\dev\\DevFreelance.Payments\\API\\API.csproj",
+        "projectPath": "c:\\dev\\DevFreelance.Payments\\API\\API.csproj",
         "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DevFreelance.Payments\\API\\obj\\",
+        "outputPath": "c:\\dev\\DevFreelance.Payments\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,12 +39,18 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
