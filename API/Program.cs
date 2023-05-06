@@ -1,3 +1,4 @@
+using API.Consumers;
 using API.Services;
 using Microsoft.OpenApi.Models;
 
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 // DI
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddHostedService<ProcessPaymentConsumer>();
 
 var app = builder.Build();
 
